@@ -54,10 +54,10 @@ const usuarios = [
     {
         nombre: "Daniela",
         edad: 22,
-        correo: "andrea@uaq.mx",
+        correo: "daniela@uaq.mx",
         social: [
-            { nombre: "facebook", url: "facebook/andrea" },
-            { nombre: "twitter", url: "twitter/andrea" },
+            { nombre: "facebook", url: "facebook/daniela" },
+            { nombre: "twitter", url: "twitter/daniela" },
         ],
         genero: "Mujer",
     },
