@@ -1,43 +1,15 @@
-/****************************/
-/* Ejercicios con métodos: */
-/***************************/
+/***************************************/
+/* Ejercicios con arreglos y objetos: */
+/**************************************/
+// 1. Crear un objeto que contenga un arreglo de 5 nombres de personas.
 
-// 1. Crea una funcion que reciba una cadena de texto como este “mi-cadena-corta” y devuelva un nuevo arreglo con las palabras en camelCase ejemplo: “miCadenaCorta.
+// 2. Crea un arreglo de 5 objetos, cada objeto debe contener un nombre y una edad.
 
-// 2. Ordena de mayor a menor las edades de un arreglo de personas.
-const people = [
-    { name: "Wladimir", age: 1 },
-    { name: "Pablo", age: 29 },
-    { name: "Andres", age: 55 },
-    { name: "Carlos", age: 2 },
-    { name: "Juan", age: 13 },
-];
+// 3. Del arreglo anterior que creaste, crea un nuevo arreglo que contenga solo los nombres de las personas.
 
-// (a, b) => b.age - a.age
+// 4. Declara una función que reciba el mismo arreglo de objetos que creaste y que retorne la suma de todas las edades.
 
-// 3. Supongamos que tenemos un arreglo de cadenas. Nos gustaría tener una copia ordenada del mismo, pero mantener el original sin modificar. Crea una función que reciba un arreglo de cadenas y devuelva un nuevo arreglo con las cadenas ordenadas sin modificar el original.
-const vocales = ["i", "e", "o", "u", "a"];
-
-// 4. Crea una funcion que reciba como parámetro un arreglo de nombres y devuelva un nuevo arreglo sin repetir ningún nombre.
-const nombres = [
-    "Wladimir",
-    "Pablo",
-    "Andres",
-    "Carlos",
-    "Juan",
-    "Wladimir",
-    "Pablo",
-    "Andres",
-    "Carlos",
-];
-
-// 5. crea una funcion que reciba un arreglo de números y devuelva un nuevo arreglo con la suma de los arreglos. [1,2], [3,4] => 10
-const arreglo1 = [1, 2, 3];
-const arreglo2 = [4, 5, 6];
-
-function sumarArreglos(arr1, arr2) {}
-
-// tenemos este arreglo de objetos
+// 5. Del siguiente arreglo de objetos, realiza lo siguiente:
 const usuarios = [
     {
         nombre: "Erik",
@@ -91,6 +63,6 @@ const usuarios = [
     },
 ];
 
-// 6.1. Almacena todos los correos del arreglo usuarios.
+// 5.1. Crea un array de nombre correos y almacena todos los correos del arreglo usuarios.
 
-// 6.2. Almacena todas las urls de las cuentas de facebook del arreglo usuarios.
+// 5.2. Crea un array de nombre cuentasDeFacebook y almacena todas las urls de las cuentas de facebook del arreglo usuarios.
